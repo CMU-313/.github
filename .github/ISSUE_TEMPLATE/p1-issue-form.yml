@@ -45,12 +45,3 @@ body:
       render: shell
     validations:
       required: true
-
-  - type: checkboxes
-    id: acknowledgements
-    attributes:
-      label: Acknowledgements
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
